@@ -9,4 +9,4 @@ do
     s3 -us delete $bucket/$i
 done
 
-    
+s3 -us delete $bucket
